@@ -1,0 +1,84 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(66, 77, 107, 0.7),rgba(0, 0, 50, 0.7)), url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+h1
+{
+	color: #DADADB;
+	padding-top: 300px;
+	margin-left: 600px;
+}
+
+.nav-link {
+    color: #DADADB;
+}
+
+.nav-link:hover{
+    color: rgb(102,110,129);
+}
+
+.btn-menu
+{
+	font-size: 1.6em;
+	font-weight: 500;
+	padding: 1px 5px;
+	text-decoration: none !important;
+    color: #fff !important;
+}
+.menu ul li .btn-logout
+{
+	margin-left: 500px;
+	color: #333 !important;
+	transition: 0.25s;
+}
+.menu ul li .btn-logout:hover
+{
+	opacity: 0.5;
+}
+.menu
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 70px;
+	width: 95%;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding-top: 15px;
+	transform: translate(2.5%,10%);
+}
+.menu img
+{
+	width: 75px;
+	height: 70px;
+	margin-top: -15px;
+	margin-left: 50px;
+	margin-right: 70px;
+}
+.menu ul
+{
+	display: inline-flex;
+}
+.menu ul li
+{
+	list-style: none;
+	margin: 0 40px;
+	margin-left: 0px;
+}
+.menu a
+{
+	text-align: center;
+	transition: 0.25s;
+}
+.menu a:hover
+{
+	color: rgba(255, 255, 255, 0.5) !important;
+}

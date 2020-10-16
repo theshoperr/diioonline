@@ -1,0 +1,67 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Jura', sans-serif;
+}
+body
+{
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+    background: linear-gradient(rgba(66, 77, 107, 0.7),rgba(0, 0, 50, 0.7));
+    background-size: cover;
+	overflow: hidden;
+}
+
+.nav-link {
+    color: #DADADB;
+}
+
+.nav-link:hover{
+    color: rgb(102,110,129);
+}
+
+.Container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.Titulo{
+    color: #fff;
+    font-size: 8em;
+    font-weight: 500;
+}
+
+.Mais{
+    text-decoration: none !important;
+    color: #fff;
+    margin-left: 430px;
+}
+
+.Mais:hover{
+    color: rgb(190, 190, 190);
+}
+
+.footer{
+    margin-top: 360px;
+    margin-left: 20px;
+}
+
+.footer small{
+    color: rgba(255, 255, 255, 0.384);
+}
+
+.card{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    justify-content: center;
+    align-items: center;
+}
+.card .card-body{
+    padding: 50px;
+}

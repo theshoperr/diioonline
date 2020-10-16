@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Jura', sans-serif;
+}
+body
+{
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+    background: linear-gradient(rgba(66, 77, 107, 0.7),rgba(0, 0, 50, 0.7)), url(../img/Wallpaper2_Modified.png);
+    background-size: cover;
+	overflow: hidden;
+}
+
+.nav-link {
+    color: #424D6B;
+}
+
+.nav-link:hover{
+    color: rgb(102,110,129);
+}
+
+.Container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 150px;*/
+    padding-top: 75px;
+    padding-bottom: 75px;
+    top: 15%;
+    left: 50%;
+}
+
+.Titulo{
+    color: #DADADB;
+    font-size: 8em;
+    font-weight: 500;
+    
+    text-shadow:
+    -1px -1px 0 #DADADB,
+    1px -1px 0 #DADADB,
+    -1px 1px 0 #DADADB,
+    1px 1px 0 #DADADB;  
+}
+
+.Subtitulo{
+    color: #2C374D;
+    
+    text-shadow:
+    -1px -1px 0 #2C374D,
+    1px -1px 0 #2C374D,
+    -1px 1px 0 #2C374D,
+    1px 1px 0 #2C374D; 
+}
+
+.Mais{
+    text-decoration: none;
+    color: #DADADB;
+    margin-left: 430px;
+}
+
+.Mais:hover{
+    color: rgb(190, 190, 190);
+}
+
+.footer{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.footer small{
+    color: rgba(255, 255, 255, 0.384);
+}
+
+.card{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    justify-content: center;
+    align-items: center;
+}
+.card .card-body{
+    padding: 50px;
+}
